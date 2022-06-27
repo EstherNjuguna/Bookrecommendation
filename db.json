@@ -1,0 +1,40 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "bookTitle": "A Smarter Way To Learn Javascript",
+      "image_url": "https://www.booktopia.com.au/covers/500/9781497408180/0000/a-smarter-way-to-learn-javascript.jpg",
+      "decription": "It has all the core of fundamental of javascript and some advanced concepts like constructors" ,
+       "author":"Mark myers"
+    },
+    {
+        "id": "2",
+        "bookTitle": "Eloquent Javascript",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51IKycqTPUL._SX258_BO1,204,203,200_.jpg",
+        "decription":"The book starts with the basic structure of JavaScript as well as data structures, control structures, and functions to help you write basic programs. You will also learn about error handling and bug fixing, asynchronous programming, modularity, and lots more. In addition to this, all the source code used in the book is available online, where you can edit, run, and see its output instantly",
+        "author": "marijn haver beke"
+      },
+      {
+        "id": "3",
+        "bookTitle": "You Dont Know Js",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/41Z5kHqNo1L._SX330_BO1,204,203,200_.jpg",
+        "decription": "Even if you may not be a complete beginner at JavaScript, there are still lots to learn about this language. This book is part of the  series and focuses on ES6, the latest version of the JavaScript standard. You will learn all about the new ES6 syntax, organize code, express async flow control, leverage new API helpers, and lots more. It will also teach you how to use collections to work more efficiently with data.",
+        "author":"caro simson"
+      },
+      {
+        "id": "4",
+        "bookTitle": "Learn JavaScript VISUALLY with Interactive Exercises: The Beautiful New Way to Learn a Programming Language",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/41uhbBm2gxL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "decription": "This is a beautifully illustrated JavaScript book that comes with a number of interactive exercises. It teaches JavaScript through metaphors, analogies, images, and many more creative ways. Although it might not be the most complete book on JavaScript, it gives you guides and online resources for a detailed explanation of each concept. If you are a visual learner, this book is for you.",
+        "author": "ivelyn enrov"
+      },
+      {
+        "id": "5",
+        "bookTitle": "JavaScript and jQuery: Interactive Front-End Web Development",
+        "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394412494l/16219704.jpg",
+        "decription": "This book is one of the best guides for anyone who wants to learn JavaScript and jQuery together. It is packed with visuals and graphics to help you understand code in a more relevant and less intimidating manner. By making use of jQuery plugins, the book ensures that you will be writing your own working scripts in no time.",
+        "author":"jon darket"
+      }
+    
+  ]
+}
