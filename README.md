@@ -24,7 +24,10 @@ Deliverables
 4. Leave and edit a book review.
 
 
-Technologies Used JavaScript For functionality of the page
+Technologies Used 
+
+JavaScript For functionality of the page,
+
 HTML For the page structures,
 
 CSS For styling the pages,
