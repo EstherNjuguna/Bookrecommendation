@@ -18,16 +18,16 @@ getBookData();
   function bookData(data) {
     data.forEach((data) => {
       const list = document.createElement("li");
-      list.style.fontSize = "18px";
+      list.style.fontSize = "20px";
       list.innerText = data.name;
       bookUl.appendChild(list);
 
       list.addEventListener("click", () => {
         bookElemName.textContent = data.name;
-        bookElemName.style.color = "red";       
+        bookElemName.style.color = "blue";       
         bookElemImage.setAttribute("src", data.image_url);
         bookElemDescription.textContent = data.description;
-        bookElemDescription.style.fontSize = "18px"
+        bookElemDescription.style.fontSize = "20px"
       });
     });
   }
