@@ -4,37 +4,58 @@
       "id": "1",
       "name": "A Smarter Way To Learn Javascript",
       "image_url": "https://www.booktopia.com.au/covers/500/9781497408180/0000/a-smarter-way-to-learn-javascript.jpg",
-      "decription": "It has all the core of fundamental of javascript and some advanced concepts like constructors" ,
+      "description": "It has all the core of fundamental of javascript and some advanced concepts like constructors" ,
        "author":"Mark myers"
     },
     {
         "id": "2",
         "name": "Eloquent Javascript",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51IKycqTPUL._SX258_BO1,204,203,200_.jpg",
-        "decription":"The book starts with the basic structure of JavaScript as well as data structures, control structures, and functions to help you write basic programs. You will also learn about error handling and bug fixing, asynchronous programming, modularity, and lots more. In addition to this, all the source code used in the book is available online, where you can edit, run, and see its output instantly",
+        "description":"The book starts with the basic structure of JavaScript as well as data structures, control structures, and functions to help you write basic programs. You will also learn about error handling and bug fixing, asynchronous programming, modularity, and lots more. In addition to this, all the source code used in the book is available online, where you can edit, run, and see its output instantly",
         "author": "marijn haver beke"
       },
       {
         "id": "3",
         "name": "You Dont Know Js",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41Z5kHqNo1L._SX330_BO1,204,203,200_.jpg",
-        "decription": "Even if you may not be a complete beginner at JavaScript, there are still lots to learn about this language. This book is part of the  series and focuses on ES6, the latest version of the JavaScript standard. You will learn all about the new ES6 syntax, organize code, express async flow control, leverage new API helpers, and lots more. It will also teach you how to use collections to work more efficiently with data.",
+        "description": "Even if you may not be a complete beginner at JavaScript, there are still lots to learn about this language. This book is part of the  series and focuses on ES6, the latest version of the JavaScript standard. You will learn all about the new ES6 syntax, organize code, express async flow control, leverage new API helpers, and lots more. It will also teach you how to use collections to work more efficiently with data.",
         "author":"caro simson"
       },
       {
         "id": "4",
         "name": "Learn JavaScript VISUALLY with Interactive Exercises: The Beautiful New Way to Learn a Programming Language",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41uhbBm2gxL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
-        "decription": "This is a beautifully illustrated JavaScript book that comes with a number of interactive exercises. It teaches JavaScript through metaphors, analogies, images, and many more creative ways. Although it might not be the most complete book on JavaScript, it gives you guides and online resources for a detailed explanation of each concept. If you are a visual learner, this book is for you.",
+        "description": "This is a beautifully illustrated JavaScript book that comes with a number of interactive exercises. It teaches JavaScript through metaphors, analogies, images, and many more creative ways. Although it might not be the most complete book on JavaScript, it gives you guides and online resources for a detailed explanation of each concept. If you are a visual learner, this book is for you.",
         "author": "ivelyn enrov"
       },
       {
         "id": "5",
         "name": "JavaScript and jQuery: Interactive Front-End Web Development",
         "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1394412494l/16219704.jpg",
-        "decription": "This book is one of the best guides for anyone who wants to learn JavaScript and jQuery together. It is packed with visuals and graphics to help you understand code in a more relevant and less intimidating manner. By making use of jQuery plugins, the book ensures that you will be writing your own working scripts in no time.",
+        "description": "This book is one of the best guides for anyone who wants to learn JavaScript and jQuery together. It is packed with visuals and graphics to help you understand code in a more relevant and less intimidating manner. By making use of jQuery plugins, the book ensures that you will be writing your own working scripts in no time.",
         "author":"jon darket"
+      },
+
+    {
+        "id": "6",
+        "name": "JavaScript: The Goodparts",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/5131OWtQRaL._SX258_BO1,204,203,200_.jpg",
+        "description": "JavaScript was developed and released in a hurry before it could be refined. Hence, it comes with its share of good and bad parts. This book refines these bad features to reveal a JavaScript that is more readable and maintainable. You will learn all about the elegant parts of JavaScript, including functions, inheritance, syntax objects, arrays, methods, style, and lots more. By the end of this book, you will discover an elegant, beautiful, lightweight, and highly expressive language to develop sites and applications.",
+        "author":"Douglas Crockford"
+      },
+      {
+        "id": "7",
+        "name": "Secrets of the JavaScript Ninja",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51u9Pg4riRL._SX258_BO1,204,203,200_.jpg",
+        "description": "If you are serious about web development, being a decent JavaScript developer is not enough. You need to have ninja-like stealth and efficiency to be ready for anything and this book teaches you exactly how. It uses practical examples to clearly illustrate each core concept and technique. This completely revised edition shows you how to master key JavaScript concepts such as functions, closures, objects, prototypes, and promises. You’ll discover best practice techniques such as testing, and cross-browser development - all taught from the perspective of skilled JavaScript practitioners.",
+        "author":"John Resig, Bear Bibeault, and Josip Maras"
+      },
+      {
+        "id": "8",
+        "name": "JavaScript: The Definitive Guide",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51HbNW6RzhL._SX375_BO1,204,203,200_.jpg",
+        "description": "This classic has been the go-to JavaScript book for programmers for nearly 25 years. The latest edition is updated to cover the 2020 version of Javascript along with some newly added chapters on a range of topics. This book is ideal for programmers who want to take their understanding of JavaScript to the next level. It begins with all the basic foundations of JavaScript to advanced topics like web platforms and Node.js.",
+        "author":"David Flanagan"
       }
-    
   ]
 }
