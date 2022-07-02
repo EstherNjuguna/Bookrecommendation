@@ -13,7 +13,7 @@ getBookData();
       .then((response) => response.json())
       .then((data) => bookData(data));
   }
-  getBookData()
+  
   
   function bookData(data) {
     data.forEach((data) => {
@@ -30,4 +30,15 @@ getBookData();
         bookElemDescription.style.fontSize = "20px"
       });
     });
+  }
+  const form =document.getElementById("description-form")
+  form.onsubmit=handleReview
+  function handleReview(event){
+     event.preventDefault()
+     console.log("form submitted")
+     let review = document.getElementById("description").value
+     const ul = document.getElementById("progress");
+     let li = document.createElement("li");
+         li.appendChild(document.createTextNode(review));
+         ul.appendChild(li);   
   }
