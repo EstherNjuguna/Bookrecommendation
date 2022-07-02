@@ -42,3 +42,58 @@ getBookData();
          li.appendChild(document.createTextNode(review));
          ul.appendChild(li);   
   }
+  const loginButton = document.getElementById("btn1");
+  const signUpButton = document.getElementById("btn2");
+  const signUpRedirect = document.getElementById("signOn");
+  const logInRedirect = document.getElementById("logOn")
+  const showName = document.getElementById("userInputName");
+  
+  
+  //signup
+  const form = document.getElementById("sign-up");
+  const userName = document.getElementById("userName");
+  const userEmail = document.getElementById("userEmail");
+  const password = document.getElementById("userPassword");
+  const confirmPassword = document.getElementById("userPassword1");
+  const submitButton = document.getElementById("submit")
+  
+  
+  // Login
+  const username = document.getElementById("username");
+  const userPassword = document.getElementById("userPassword2");
+  const subButton = document.getElementById("submitIn");
+  
+  // Display login form
+  loginButton.addEventListener("click", () => {
+      const signIn = document.getElementById("signIn");
+      signIn.style.display = "block";
+  });
+  
+  // Login as user 
+  subButton.addEventListener("click", () => {
+      alert("Welcome" + " " + username.value)
+      document.getElementById("userInputName").innerHTML = username.value;
+      const signIn = document.getElementById("signIn");
+      signIn.style.display = "none";
+  })
+  
+  
+  // Hide login form
+  document.getElementById("x2").addEventListener("click", () => {
+      const signIn = document.getElementById("signIn");
+      signIn.style.display = "none";
+  })
+  
+  
+  // Display signup form
+  signUpButton.addEventListener("click", () => {
+      const signUp = document.getElementById("register");
+      signUp.style.display = "block";
+  });
+  
+  // Hide signup form
+  document.getElementById("x1").addEventListener("click", () => {
+      const signUp = document.getElementById("register");
+      signUp.style.display = "none";
+  })
+  
