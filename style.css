@@ -11,7 +11,7 @@
  
   
   body {
-    margin: 0;
+
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     
@@ -29,6 +29,54 @@
     
     
   }
+
+  .navigation {
+    float: right;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+}
+.nav {
+    margin: 1.2rem;
+    font-size: 1.7rem;
+    color: #ff7200;
+}
+
+.navbar {
+    display: flex;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar div {
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.navbar div:hover {
+    color: #20d4e0;
+}
+
+.navbar div button {
+    padding: 0.3rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    font-size: 1.3rem;
+    margin-top: -0.5rem;
+    cursor: pointer;
+    background-color: #20d4e0;
+    border-radius: 0.3rem;
+    border: 1px solid #20d4e0;
+}
+
+.navbar div button:hover {
+    background-color: #ff7200;
+    border: 1px solid #ff7200;
+    color: #fff;
+}
   
   h1 {
     font-family: "Great Vibes", cursive;
@@ -110,3 +158,174 @@
     padding: 7px 10px;
     cursor: pointer;
   }
+  
+  .login {
+    border: 1px solid lightgray;
+    width: 20rem;
+    height: 24rem;
+    margin: 3rem;
+    margin-top: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0.7rem;
+    padding: 0.7rem;
+}
+
+.login input {
+    width: 19.3rem;
+    height: 2rem;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    outline: none;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.login .sub-button {
+    width: 10rem;
+    margin-top: 1.4rem;
+    margin-left: 4.4rem;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    background-color: #20d4e0;
+}
+
+.login .sub-button:hover {
+    background-color:#ff7200;
+    transition: 0.3s;
+}
+
+.login p {
+    color:rgb(20, 20, 20);
+    margin: 0.7rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.login p button {
+    padding: 0.2rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #ff7200;
+    border: none;
+    border-radius:0.1rem;
+}
+.firstX {
+  color:rgb(20, 20, 20);
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 48rem;
+  cursor: pointer;
+}
+
+.login p button:hover {
+    background-color:#20d4e0;
+}
+
+.log-in {
+    width: 50rem;
+    height: 33rem;
+    position: fixed;
+    margin: 5rem;
+    background-color: beige;
+    color: #fff;
+    top: 0;
+    left: 45%;
+    transform: translateX(-50%);
+    border-radius: 0.7rem;
+    display: none;
+}
+
+.logIn {
+    border: 1px solid lightgray;
+    width: 20rem;
+    height: 19rem;
+    margin: 3rem;
+    margin-top: 7rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0.7rem;
+    padding: 0.7rem;
+    
+}
+
+.logIn input {
+    width: 19.3rem;
+    height: 2rem;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    outline: none;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.logIn .sub-button {
+    width: 10rem;
+    margin-top: 1.4rem;
+    margin-left: 4.4rem;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    background-color: #20d4e0;
+}
+
+.logIn .sub-button:hover {
+    background-color:#ff7200;
+    transition: 0.3s;
+}
+
+.logIn p {
+    color:rgb(20, 20, 20);
+    margin: 0.7rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.logIn p button {
+    padding: 0.2rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #ff7200;
+    border: none;
+    border-radius:0.1rem;
+}
+
+.logIn p button:hover {
+    background-color:#20d4e0;
+}
+
+.logIn div {
+    margin: 1rem;
+    margin-left: 3rem;
+}
+
+.logIn a {
+    margin: 0.5rem;
+}
+.secondX {
+  margin-top: -4.3rem;
+  margin-bottom: 4.3rem;
+  margin-left: 51.5rem;
+  cursor: pointer;
+}
+#sign-up{
+  position: relative;
+  flex: auto;
+  margin-top: 10%;
+  float: right;
+}

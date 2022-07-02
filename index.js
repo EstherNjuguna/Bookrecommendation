@@ -48,28 +48,15 @@ getBookData();
   const logInRedirect = document.getElementById("logOn")
   const showName = document.getElementById("userInputName");
   
-  
-  //signup
-  const form = document.getElementById("sign-up");
-  const userName = document.getElementById("userName");
-  const userEmail = document.getElementById("userEmail");
-  const password = document.getElementById("userPassword");
-  const confirmPassword = document.getElementById("userPassword1");
-  const submitButton = document.getElementById("submit")
-  
-  
-  // Login
   const username = document.getElementById("username");
   const userPassword = document.getElementById("userPassword2");
   const subButton = document.getElementById("submitIn");
   
-  // Display login form
   loginButton.addEventListener("click", () => {
       const signIn = document.getElementById("signIn");
       signIn.style.display = "block";
   });
   
-  // Login as user 
   subButton.addEventListener("click", () => {
       alert("Welcome" + " " + username.value)
       document.getElementById("userInputName").innerHTML = username.value;
