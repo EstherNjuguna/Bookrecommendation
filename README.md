@@ -13,13 +13,14 @@ http://localhost:3000/books
 
 Then, open the index.html file on your browser to run the application.
 
+The API source code is https://blooming-lake-11486.herokuapp.com/books
 
 Deliverables
  I can:
 
-1. See the first book's details, including its name, image and description when the page loads.Make a GET request to the following endpoint to retrieve the book data.
-2. Able to sign up or log in to the webpage
-3. Make a GET request to the following endpoint to get the book data.
+1. See the first book's details, including its name, image and description when the page loads.Make a GET request to the following endpoint to retrieve the book data,
+2. Able to sign up or log in to the webpage,
+3. Make a GET request to the following endpoint to get the book data,
 4. Leave and edit a book review
 Technologies Used
 JavaScript

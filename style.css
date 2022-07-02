@@ -1,331 +1,330 @@
 
-   textarea {
-    display: block;
-    width: 100%;
-    height: 100px;
-    border: 1px solid gray;
-    padding: 5px;
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
- 
-  
-  body {
+textarea {
+  display: block;
+  width: 100%;
+  height: 100px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    
-  }
-  
-  header {
-    float: left;
-    width: 300px;
-    height: 500px;
-    border-right: solid #404040 10px;
-    border-bottom: solid #404040 10px;
-    border-radius: 0 0 6px 0;
-    padding: 10px;
-    margin-right: 10px;
-    
-    
-  }
 
-  .navigation {
-    float: right;
-    justify-content: space-between;
-    top: 0;
-    position: fixed;
-    width: 100%;
-    background-color: rgb(20, 20, 20);
+body {
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  
+}
+
+header {
+  float: left;
+  width: 300px;
+  height: 500px;
+  border-right: solid #404040 10px;
+  border-bottom: solid #404040 10px;
+  border-radius: 0 0 6px 0;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: rgb(247, 223, 223);
+  
+}
+
+.navigation {
+  float: right;
+  justify-content: space-between;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
 }
 .nav {
-    margin: 1.2rem;
-    font-size: 1.7rem;
-    color: #ff7200;
+  margin: 1.2rem;
+  font-size: 1.7rem;
+  color: #ff7200;
 }
 
 .navbar {
-    display: flex;
-    margin: 1.5rem;
-    font-size: 1.5rem;
-    color: #fff;
+  display: flex;
+  margin: 1.5rem;
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 .navbar div {
-    margin-left: 1.5rem;
-    cursor: pointer;
+  margin-left: 1.5rem;
+  cursor: pointer;
 }
 
 .navbar div:hover {
-    color: #20d4e0;
+  color: #20d4e0;
 }
 
 .navbar div button {
-    padding: 0.3rem;
-    padding-right: 0.7rem;
-    padding-left: 0.7rem;
-    font-size: 1.3rem;
-    margin-top: -0.5rem;
-    cursor: pointer;
-    background-color: #20d4e0;
-    border-radius: 0.3rem;
-    border: 1px solid #20d4e0;
+  padding: 0.3rem;
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
+  font-size: 1.3rem;
+  margin-top: -0.5rem;
+  cursor: pointer;
+  background-color: #20d4e0;
+  border-radius: 0.3rem;
+  border: 1px solid #20d4e0;
 }
 
 .navbar div button:hover {
-    background-color: #ff7200;
-    border: 1px solid #ff7200;
-    color: #fff;
+  background-color: #ff7200;
+  border: 1px solid #ff7200;
+  color: #fff;
 }
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 52px;
+  color: #107fce;
+  margin: 10px 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul {
+  margin-left: 15px;
+
+}
+
+nav ul li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: #3c41d0;
+  color: #fff;
+}
+
+main {
+  float: left;
+  margin-left: 50px;
+  width:1000px;
+  background-color:rgb(232, 198, 198);
+}
+
+.book-details h2 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.book-details h3 {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
   
-  h1 {
-    font-family: "Great Vibes", cursive;
-    font-size: 52px;
-    color: #107fce;
-    margin: 10px 0;
-  }
-  
-  ul {
-    padding: 0;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  nav ul {
-    margin-left: 15px;
-  
-  }
-  
-  nav ul li {
-    padding: 5px;
-    cursor: pointer;
-  }
-  
-  nav ul li:hover {
-    background-color: #3c41d0;
-    color: #fff;
-  }
-  
-  main {
-    float: left;
-    margin-left: 50px;
-    width:1000px;
-    background-color:rgb(232, 198, 198);
-  }
-  
-  .book-details h2 {
-    font-size: 32px;
-    text-align: center;
-  }
-  
-  .book-details h3 {
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    
-  }
-  
-  .book-details img {
-    display: block;
-    height: 400px;
-    width: 400px;
-    margin: 0 auto 30px auto;
-  }
-  
-  form {
-    width: 450px;
-    margin: 0 auto 50px auto;
-  }
-  
-  textarea {
-    display: block;
-    width: 100%;
-    height: 100px;
-    border: 1px solid gray;
-    padding: 5px;
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  form button[type="submit"] {
-    border: none;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    background-color: #4257c1;
-    color: #fff;
-    padding: 7px 10px;
-    cursor: pointer;
-  }
-  
-  .login {
-    border: 1px solid lightgray;
-    width: 20rem;
-    height: 24rem;
-    margin: 3rem;
-    margin-top: 4rem;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 0.7rem;
-    padding: 0.7rem;
+}
+
+.book-details img {
+  display: block;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto 30px auto;
+}
+
+form {
+  width: 450px;
+  margin: 0 auto 50px auto;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 100px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #4257c1;
+  color: #fff;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+
+.login {
+  border: 1px solid lightgray;
+  width: 20rem;
+  height: 24rem;
+  margin: 3rem;
+  margin-top: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0.7rem;
+  padding: 0.7rem;
 }
 
 .login input {
-    width: 19.3rem;
-    height: 2rem;
-    padding: 0.3rem;
-    margin-top: 0.5rem;
-    font-size: 1.1rem;
-    outline: none;
-    border-radius: 0.2rem;
-    border: none;
+  width: 19.3rem;
+  height: 2rem;
+  padding: 0.3rem;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  outline: none;
+  border-radius: 0.2rem;
+  border: none;
 }
 
 .login .sub-button {
-    width: 10rem;
-    margin-top: 1.4rem;
-    margin-left: 4.4rem;
-    padding: 0.4rem;
-    font-size: 1.5rem;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-    cursor: pointer;
-    border-radius: 1rem;
-    border: none;
-    background-color: #20d4e0;
+  width: 10rem;
+  margin-top: 1.4rem;
+  margin-left: 4.4rem;
+  padding: 0.4rem;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: none;
+  background-color: #20d4e0;
 }
 
 .login .sub-button:hover {
-    background-color:#ff7200;
-    transition: 0.3s;
+  background-color:#ff7200;
+  transition: 0.3s;
 }
 
 .login p {
-    color:rgb(20, 20, 20);
-    margin: 0.7rem;
-    margin-top: 2rem;
-    font-size: 1.3rem;
+  color:rgb(20, 20, 20);
+  margin: 0.7rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
 }
 
 .login p button {
-    padding: 0.2rem;
-    padding-right: 0.3rem;
-    padding-left: 0.3rem;
-    font-size: 1rem;
-    cursor: pointer;
-    background-color: #ff7200;
-    border: none;
-    border-radius:0.1rem;
+  padding: 0.2rem;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #ff7200;
+  border: none;
+  border-radius:0.1rem;
 }
 .firstX {
-  color:rgb(20, 20, 20);
-  margin-top: 0.5rem;
-  margin-right: 0.5rem;
-  margin-left: 48rem;
-  cursor: pointer;
+color:rgb(20, 20, 20);
+margin-top: 0.5rem;
+margin-right: 0.5rem;
+margin-left: 48rem;
+cursor: pointer;
 }
 
 .login p button:hover {
-    background-color:#20d4e0;
+  background-color:#20d4e0;
 }
 
 .log-in {
-    width: 50rem;
-    height: 33rem;
-    position: fixed;
-    margin: 5rem;
-    background-color: beige;
-    color: #fff;
-    top: 0;
-    left: 45%;
-    transform: translateX(-50%);
-    border-radius: 0.7rem;
-    display: none;
+  width: 50rem;
+  height: 33rem;
+  position: fixed;
+  margin: 5rem;
+  background-color: beige;
+  color: #fff;
+  top: 0;
+  left: 45%;
+  transform: translateX(-50%);
+  border-radius: 0.7rem;
+  display: none;
 }
 
 .logIn {
-    border: 1px solid lightgray;
-    width: 20rem;
-    height: 19rem;
-    margin: 3rem;
-    margin-top: 7rem;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 0.7rem;
-    padding: 0.7rem;
-    
+  border: 1px solid lightgray;
+  width: 20rem;
+  height: 19rem;
+  margin: 3rem;
+  margin-top: 7rem;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0.7rem;
+  padding: 0.7rem;
+  
 }
 
 .logIn input {
-    width: 19.3rem;
-    height: 2rem;
-    padding: 0.3rem;
-    margin-top: 0.5rem;
-    font-size: 1.1rem;
-    outline: none;
-    border-radius: 0.2rem;
-    border: none;
+  width: 19.3rem;
+  height: 2rem;
+  padding: 0.3rem;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  outline: none;
+  border-radius: 0.2rem;
+  border: none;
 }
 
 .logIn .sub-button {
-    width: 10rem;
-    margin-top: 1.4rem;
-    margin-left: 4.4rem;
-    padding: 0.4rem;
-    font-size: 1.5rem;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-    cursor: pointer;
-    border-radius: 1rem;
-    border: none;
-    background-color: #20d4e0;
+  width: 10rem;
+  margin-top: 1.4rem;
+  margin-left: 4.4rem;
+  padding: 0.4rem;
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: none;
+  background-color: #20d4e0;
 }
 
 .logIn .sub-button:hover {
-    background-color:#ff7200;
-    transition: 0.3s;
+  background-color:#ff7200;
+  transition: 0.3s;
 }
 
 .logIn p {
-    color:rgb(20, 20, 20);
-    margin: 0.7rem;
-    margin-top: 2rem;
-    font-size: 1.3rem;
+  color:rgb(20, 20, 20);
+  margin: 0.7rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
 }
 
 .logIn p button {
-    padding: 0.2rem;
-    padding-right: 0.3rem;
-    padding-left: 0.3rem;
-    font-size: 1rem;
-    cursor: pointer;
-    background-color: #ff7200;
-    border: none;
-    border-radius:0.1rem;
+  padding: 0.2rem;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #ff7200;
+  border: none;
+  border-radius:0.1rem;
 }
 
 .logIn p button:hover {
-    background-color:#20d4e0;
+  background-color:#20d4e0;
 }
 
 .logIn div {
-    margin: 1rem;
-    margin-left: 3rem;
+  margin: 1rem;
+  margin-left: 3rem;
 }
 
 .logIn a {
-    margin: 0.5rem;
+  margin: 0.5rem;
 }
 .secondX {
-  margin-top: -4.3rem;
-  margin-bottom: 4.3rem;
-  margin-left: 51.5rem;
-  cursor: pointer;
+margin-top: -4.3rem;
+margin-bottom: 4.3rem;
+margin-left: 51.5rem;
+cursor: pointer;
 }
 #sign-up{
-  position: relative;
-  flex: auto;
-  margin-top: 10%;
-  float: right;
+position: relative;
+float: right;
+background-color: rgb(230, 214, 214);
 }
