@@ -110,9 +110,12 @@ nav ul li:hover {
 
 main {
   float: left;
-  margin-left: 50px;
+  margin-left: 10px;
+  flex: auto;
   width:55%;
   background-color:rgb(232, 198, 198);
+  min-width: none;
+  max-width: 55%;
 }
 
 .book-details h2 {
