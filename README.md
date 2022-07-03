@@ -1,35 +1,41 @@
-# Bookrecommendation
-Book recommendation
-Building a webpage for viewing and editing Js books. Will be using a local API and building out the frontend for our app.
- It is an HTML, CSS and JavaScript project that communicates with a public API to store users. It is user friendly and it is easy to navigate arround while on it. It works well with all the pages functioning.
-
-Setup
-Run this command to get the backend started:
-
-$ json-server --watch db.json
-Test your server by visiting this route in the browser:
-
-http://localhost:3000/books
-
-Then, open the index.html file on your browser to run the application.
-
-The API source code is https://blooming-lake-11486.herokuapp.com/books
-
-Deliverables
- I can:
-
-1. See the first book's details, including its name, image and description when the page loads.Make a GET request to the following endpoint to retrieve the book data,
-2. Able to sign up or log in to the webpage,
-3. Make a GET request to the following endpoint to get the book data,
-4. Leave and edit a book review.
+# BookRecommendation
+## This is a project about reviews based on JavaScript books
 
 
-Technologies Used 
+## Contributors
+This project is owned by Esther Njuguna, a Software Engineer and a student at Moringa School.
+### Contact Info
+You can contact me through if you have any issues or contacts:-
+   #### Email:- esternjuguna@gmail.com
+   #### Phone No.:- +254724487514
+   
 
-JavaScript For functionality of the page,
+## Description
+This is a one page project. It has the home page, login page and signup page. 
+It is an HTML, CSS and JavaScript project that communicates with a public API to store users.
+It is user friendly and it is easy to navigate arround while on it. It works well with all the pages functioning.
+It's purpose is to develop a site that can help new students of Javascript to know which books are best for start.
 
-HTML For the page structures,
 
-CSS For styling the pages,
+## Known bugs
+The site tends to misbehave somehow but that will be worked on
 
-Heroku For hosting the database.
+## Technologies Used
+#### JavaScript
+For functionality of the page
+#### HTML 
+For the page structures
+#### CSS
+For styling the pages
+
+#### Heroku
+For hosting the database
+
+## License 
+This project is a MIT licensed project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
