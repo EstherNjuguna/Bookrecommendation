@@ -7,7 +7,6 @@ This project is owned by Esther Njuguna, a Software Engineer and a student at Mo
 ### Contact Info
 You can contact me through if you have any issues or contacts:-
    #### Email:- esternjuguna@gmail.com
-   #### Phone No.:- +254724487514
    
 
 ## Description
