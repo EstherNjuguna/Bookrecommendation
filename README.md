@@ -14,7 +14,8 @@ This is a one page project. It has the home page, login page and signup page.
 It is an HTML, CSS and JavaScript project that communicates with a public API to store users.
 It is user friendly and it is easy to navigate arround while on it. It works well with all the pages functioning.
 It's purpose is to develop a site that can help new students of Javascript to know which books are best for start.
-
+### how the app functions
+https://drive.google.com/file/d/1XktZHz_-wwQ0Xle76HjdO32WQ_5z-VP5/view
 
 ## Known bugs
 The site tends to misbehave somehow but that will be worked on

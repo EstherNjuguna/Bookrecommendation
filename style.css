@@ -110,7 +110,10 @@ nav ul li:hover {
   background-color: #3c41d0;
   color: #fff;
 }
-
+#progress{
+  list-style: circle;
+  
+}
 main {
   float: left;
   margin-left: 10px;
