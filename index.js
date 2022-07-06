@@ -31,6 +31,11 @@ getBookData();
       });
     });
   }
+  document.getElementById("myBtn").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("Sorry! This page is under maintenance");
+}
   const form =document.getElementById("description-form")
   form.onsubmit=handleReview
   function handleReview(event){
@@ -83,4 +88,3 @@ getBookData();
       const signUp = document.getElementById("register");
       signUp.style.display = "none";
   })
-  
