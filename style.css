@@ -1,4 +1,5 @@
 
+
 textarea {
   display: block;
   width: 100%;
@@ -10,11 +11,12 @@ textarea {
 }
 
 
+
 body {
 
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  
+  background-color: #e8c6c6;
 }
 
 header {
@@ -25,8 +27,8 @@ header {
   border-bottom: solid #404040 10px;
   border-radius: 0 0 6px 0;
   padding: 10px;
-  margin-right: 10px;
-  background-color: rgb(255, 198, 198);
+  margin-left: 20px;
+background-color: white;
   
 }
 
@@ -81,8 +83,9 @@ header {
 h1 {
   font-family: "Great Vibes", cursive;
   font-size: 52px;
-  color: #107fce;
+  color: #1186da;
   margin: 10px 0;
+  text-align: center;
 }
 
 ul {
@@ -113,11 +116,14 @@ main {
   margin-left: 10px;
   flex: auto;
   width:55%;
-  background-color:rgb(232, 198, 198);
+  background-color:#e8c6c6;
   min-width: none;
   max-width: 55%;
 }
-
+p{
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .book-details h2 {
   font-size: 32px;
   text-align: center;
