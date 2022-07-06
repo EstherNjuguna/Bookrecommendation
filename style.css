@@ -220,6 +220,7 @@ form button[type="submit"] {
   background-color: #ff7200;
   border: none;
   border-radius:0.1rem;
+  margin-right: 70px;
 }
 .firstX {
 color:rgb(20, 20, 20);
@@ -292,7 +293,6 @@ cursor: pointer;
 
 .logIn p {
   color:rgb(20, 20, 20);
-  margin: 0.7rem;
   margin-top: 2rem;
   font-size: 1.3rem;
 }
@@ -300,7 +300,7 @@ cursor: pointer;
 .logIn p button {
   padding: 0.2rem;
   padding-right: 0.3rem;
-  padding-left: 0.3rem;
+  
   font-size: 1rem;
   cursor: pointer;
   background-color: #ff7200;

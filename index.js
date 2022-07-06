@@ -1,12 +1,9 @@
+document.addEventListener("DOMContentLoaded", () => {
+  getBookData();
 const bookUl = document.getElementById("book-list");
 const bookElemName = document.getElementById("book-name");
 const bookElemImage = document.getElementById("book-image");
 const bookElemDescription = document.getElementById("book-description");
-
-
-document.addEventListener("DOMContentLoaded", () => {
-getBookData();
-  });
 
   function getBookData() {
     fetch("https://blooming-lake-11486.herokuapp.com/books")
@@ -36,8 +33,7 @@ getBookData();
 function myFunction() {
   alert ("Sorry! This page is under maintenance");
 }
-  const form =document.getElementById("description-form")
-  form.onsubmit=handleReview
+document.getElementById("description-form").addEventListener("submit", handleReview);
   function handleReview(event){
      event.preventDefault()
      console.log("form submitted")
@@ -47,11 +43,7 @@ function myFunction() {
          li.appendChild(document.createTextNode(review));
          ul.appendChild(li);   
   }
-  const loginButton = document.getElementById("btn1");
-  const signUpButton = document.getElementById("btn2");
-  const signUpRedirect = document.getElementById("signOn");
-  const logInRedirect = document.getElementById("logOn")
-  const showName = document.getElementById("userInputName");
+ 
   
   const username = document.getElementById("username");
   const userPassword = document.getElementById("userPassword2");
@@ -88,3 +80,4 @@ function myFunction() {
       const signUp = document.getElementById("register");
       signUp.style.display = "none";
   })
+});
