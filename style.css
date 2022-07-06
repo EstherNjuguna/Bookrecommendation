@@ -100,7 +100,9 @@ nav ul {
   margin-left: 15px;
 
 }
-
+h2{
+  color: #4257c1;
+}
 nav ul li {
   padding: 5px;
   cursor: pointer;
@@ -336,12 +338,13 @@ margin-left: 51.5rem;
 cursor: pointer;
 }
 #sign-up{
-position: relative;
+position:relative;
 float: right;
 background-color: rgb(230, 214, 214);
+margin-top: 10px;
 }
 
-.allImages {
+/*.allImages {
   top: 0;
   left: 10%;
   display: flex;
