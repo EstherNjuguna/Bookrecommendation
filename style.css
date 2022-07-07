@@ -343,6 +343,14 @@ float: right;
 background-color: rgb(230, 214, 214);
 margin-top: 10px;
 }
+#progress{
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+
+
+
 
 /*.allImages {
   top: 0;
