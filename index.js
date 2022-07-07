@@ -15,7 +15,7 @@ const bookElemDescription = document.getElementById("book-description");
   function bookData(data) {
     data.forEach((data) => {
       const list = document.createElement("li");
-      list.style.fontSize = "20px";
+      list.style.fontSize = "1.2em";
       list.innerText = data.name;
       bookUl.appendChild(list);
 
@@ -24,7 +24,7 @@ const bookElemDescription = document.getElementById("book-description");
         bookElemName.style.color = "blue";       
         bookElemImage.setAttribute("src", data.image_url);
         bookElemDescription.textContent = data.description;
-        bookElemDescription.style.fontSize = "20px"
+        bookElemDescription.style.fontSize = "1.25em"
       });
     });
   }

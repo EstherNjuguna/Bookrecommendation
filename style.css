@@ -3,11 +3,11 @@
 textarea {
   display: block;
   width: 100%;
-  height: 100%;
-  border: 1em solid gray;
-  padding: 5em;
-  font-size: 14em;
-  margin-bottom: 10em;
+  height: 6.25em;
+  border: 0.0625em solid gray;
+  padding: 0.3125em;
+  font-size: 0.875em;
+  margin-bottom: 0.625em;
 }
 
 
@@ -15,19 +15,19 @@ textarea {
 body {
 
   font-family: "Open Sans", sans-serif;
-  font-size: 14em;
+  font-size: 0.8750em;
   background-color: #e8c6c6;
 }
 
 header {
   float: left;
-  width: 300em;
-  height: 500em;
-  border-right: solid #404040 10em;
-  border-bottom: solid #404040 10em;
-  border-radius: 0 0 6em 0;
-  padding: 10em;
-  margin-left: 20em;
+  width: 18.75em;
+  height: 31.25em;
+  border-right: solid #404040 0.6250em;
+  border-bottom: solid #404040 0.6250em;
+  border-radius: 0 0 0.3750em 0;
+  padding: 0.6250em;
+  margin-left: 1.2500em;
 background-color: white;
   
 }
@@ -76,15 +76,15 @@ background-color: white;
 
 .navbar div button:hover {
   background-color: #ff7200;
-  border: 1px solid #ff7200;
+  border: 0,0625em solid #ff7200;
   color: #fff;
 }
 
 h1 {
   font-family: "Great Vibes", cursive;
-  font-size: 52px;
+  font-size: 3.25em;
   color: #1186da;
-  margin: 10px 0;
+  margin: 0.6250em 0;
   text-align: center;
 }
 
@@ -97,14 +97,14 @@ li {
 }
 
 nav ul {
-  margin-left: 1.6em;
+  margin-left: 0.9375em;
 
 }
 h2{
   color: #4257c1;
 }
 nav ul li {
-  padding: 5em;
+  padding: 0.3125em;
   cursor: pointer;
 }
 
@@ -118,7 +118,7 @@ nav ul li:hover {
 }
 main {
   float: left;
-  margin-left: 1.6em;
+  margin-left: 0.6250em;
   flex: auto;
   width:55%;
   background-color:#e8c6c6;
@@ -126,50 +126,50 @@ main {
   max-width: 55%;
 }
 p{
-  margin-left: 50em;
-  margin-right: 50em;
+  margin-left: 3.125em;
+  margin-right: 3.125em;
 }
 .book-details h2 {
-  font-size: 32em;
+  font-size: 2em;
   text-align: center;
 }
 
 .book-details h3 {
-  font-size: 20em;
+  font-size: 1.2500em;
   font-family: 'Times New Roman', Times, serif;
   
 }
 
 .book-details img {
   display: block;
-  height: 400em;
-  width: 400em;
-  margin: 0 auto 0 auto;
+  height: 25em;
+  width: 25em;
+  margin: 0 auto 1.875em auto;
 }
 
 form {
-  width: 75%;
-  margin: 0 auto 50% auto;
+  width: 28.125em;
+  margin: 0 auto 3.125em auto;
 }
 
 textarea {
   display: block;
   width: 100%;
-  height: 55%;
-  border: 1em solid gray;
-  padding: 1em;
-  font-size: 2em;
-  margin-bottom: 2em;
+  height: 6.25em;
+  border: 0.0625em solid gray;
+  padding: 0.3125em;
+  font-size: 0.8750em;
+  margin-bottom: 0.625em;
 }
 
 form button[type="submit"] {
   border: none;
-  font-size: 16rem;
+  font-size: 1em;
   font-weight: 600;
   text-transform: uppercase;
   background-color: #4257c1;
   color: #fff;
-  Padding:1.6em;
+  padding: 0.4375em 0.625em;
   cursor: pointer;
 }
 
@@ -231,7 +231,7 @@ form button[type="submit"] {
   background-color: #ff7200;
   border: none;
   border-radius:0.1rem;
-  margin-right: 1.4rem;
+  margin-right: 4.375em;
 }
 .firstX {
 color:rgb(20, 20, 20);
@@ -341,7 +341,7 @@ cursor: pointer;
 position:relative;
 float: right;
 background-color: rgb(230, 214, 214);
-margin-top: 1.5rem;
+margin-top: 0.625em;
 }
 #progress{
   text-align: justify;
@@ -356,19 +356,19 @@ margin-top: 1.5rem;
   top: 0;
   left: 10%;
   display: flex;
-  height: 50%;
+  height: 50px;
   border: 1px solid lightgray;
   border-radius: 0.3rem;
 }
 
 .allImages div {
-  width: 2rem;
+  width: 50px;
   margin: 10%;
 }
 
 .allImages div img {
-  width: 2rem;
-  height: 2rem;
+  width: 200px;
+  height: 200px;
 }
 .books{
   font-family: 'Times New Roman', Times, serif;
